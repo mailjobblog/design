@@ -4,7 +4,11 @@
 
 ### 简单工厂
 
+- 代码：https://github.com/mailjobblog/design/tree/master/simple-factory
+
 ### 工厂方法
+
+- 代码：https://github.com/mailjobblog/design/tree/master/abstract-factory
 
 ### 抽象工厂
 

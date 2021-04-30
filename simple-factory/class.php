@@ -11,7 +11,7 @@ class FactoryClass
     /**
      * 实现汽车上色
      */
-    public static function production(string $color) {
+    public static function createProduction(string $color) {
         switch ($color)
         {
             case 'violet':
@@ -52,7 +52,7 @@ class VioletClass implements Product{
 class YellowClass implements Product{
     public function color_make(): String
     {
-        return 'this car color is Violet';
+        return 'this car color is Yellow';
     }
 }
 
@@ -62,14 +62,12 @@ class YellowClass implements Product{
 class GreenClass implements Product{
     public function color_make(): String
     {
-        return 'this car color is Violet';
+        return 'this car color is Green';
     }
 }
 
 // 客户端调用实现
-$factory = new FactoryClass();
-$class = $factory->production('violet');
-echo $class->color_make();
+echo FactoryClass::createProduction('violet')->color_make();
 
 // 输出
 // this car color is Violet
