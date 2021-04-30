@@ -37,8 +37,6 @@ interface Product{
 }
 
 /**
- * Class VioletClass
- *
  * 紫色车身涂改车间
  */
 class VioletClass implements Product{
@@ -49,9 +47,7 @@ class VioletClass implements Product{
 }
 
 /**
- * Class VioletClass
- *
- * 紫色车身涂改车间
+ * 黄色车身涂改车间
  */
 class YellowClass implements Product{
     public function color_make(): String
@@ -61,9 +57,7 @@ class YellowClass implements Product{
 }
 
 /**
- * Class VioletClass
- *
- * 紫色车身涂改车间
+ * 绿色车身涂改车间
  */
 class GreenClass implements Product{
     public function color_make(): String
