@@ -12,6 +12,8 @@
 
 ### 抽象工厂
 
+- 代码：https://github.com/mailjobblog/design/tree/master/factory
+
 ### 生成器模式
 
 ### 单例模式
