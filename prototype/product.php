@@ -1,23 +1,26 @@
 <?php
 require_once 'interface.php';
 
-class Car{
+abstract class Car{
     // 发动机引擎
     public $engineProvicer;
     // 轮胎个数
     public $tyreNum;
     // 座椅材质
     public $chair;
+
+    // 克隆方法
+    abstract public function __clone();
 }
 
 class BentleyCar extends Car{
-    function __clone(){
+    public function __clone(){
         $this->engineProvicer = new Bentley();
     }
 }
 
 class FerrariCar extends Car{
-    function __clone(){
+    public function __clone(){
         $this->engineProvicer = new Ferrari();
     }
 }
