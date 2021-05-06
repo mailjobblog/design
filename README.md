@@ -14,6 +14,10 @@
 
 - 代码：https://github.com/mailjobblog/design/tree/master/factory
 
+### 原型模式
+
+- 代码：https://github.com/mailjobblog/design/tree/master/prototype
+
 ### 生成器模式
 
 ### 单例模式
