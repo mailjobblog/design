@@ -18,7 +18,9 @@
 
 - 代码：https://github.com/mailjobblog/design/tree/master/prototype
 
-### 生成器模式
+### 建造者模式
+
+- 代码：https://github.com/mailjobblog/design/tree/master/builder
 
 ### 单例模式
 
