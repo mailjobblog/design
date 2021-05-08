@@ -24,6 +24,8 @@
 
 ### 单例模式
 
+- 代码：https://github.com/mailjobblog/design/tree/master/singleton
+
 ## 结构型模式
 
 ### 适配器模式
