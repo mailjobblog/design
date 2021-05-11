@@ -30,6 +30,8 @@
 
 ### 适配器模式
 
+- 代码：https://github.com/mailjobblog/design/tree/master/adapter
+
 ### 桥接模式
 
 ### 组合模式
