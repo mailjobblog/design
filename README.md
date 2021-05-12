@@ -34,6 +34,8 @@
 
 ### 桥接模式
 
+- 代码：https://github.com/mailjobblog/design/tree/master/bridge
+
 ### 组合模式
 
 ### 外观模式
