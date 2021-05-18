@@ -38,6 +38,8 @@
 
 ### 组合模式
 
+- 代码：https://github.com/mailjobblog/design/tree/master/composite
+
 ### 外观模式
 
 ### 享元模式
