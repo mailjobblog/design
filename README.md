@@ -48,7 +48,7 @@
 - PHP：https://www.php.net/manual/zh/install.php
 - Composer：https://www.phpcomposer.com
 
-2. 在当前目录,下载 `vendor` 依赖,PSR4自动加载类
+2. 在测试目录，更新 `vendor` 依赖，PSR4自动加载类
 
 ```bash
 composer update
