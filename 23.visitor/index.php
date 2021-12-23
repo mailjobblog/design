@@ -1,3 +1,3 @@
 <?php
 require 'vendor/autoload.php';
-use Design\Src\FactoryClass;
+use Design\Src\FactoryAbstract;
