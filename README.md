@@ -41,3 +41,21 @@
 - 模版方法模式：[template-method](22.template-method)
 - 访问者模式：[visitor](23.visitor)
 
+## 如何测试
+
+1. 安装 `php` 和 `composer` 
+
+- PHP：https://www.php.net/manual/zh/install.php
+- Composer：https://www.phpcomposer.com
+
+2. 在当前目录,下载 `vendor` 依赖,PSR4自动加载类
+
+```bash
+composer update
+```
+
+3. 测试代码
+
+```shell
+php index.php
+```

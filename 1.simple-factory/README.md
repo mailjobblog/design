@@ -1,24 +1,5 @@
 # 简单工厂
 
-## 如何测试
-
-安装 `php` 和 `composer` 软件
-
-- PHP：https://www.php.net/manual/zh/install.php
-- Composer：https://www.phpcomposer.com
-
-在当前目录,下载 `vendor` 依赖,PSR4自动加载类
-
-```bash
-composer update
-```
-
-测试代码
-
-```shell
-php index.php
-```
-
 ## 前言
 
 对于工厂模式主要分为：**简单工厂，工厂模式，抽象工厂**。  
