@@ -1,70 +1,42 @@
-# 设计模式总结
+# 设计模式
 
-## 创建型模式
+## 参考文献
 
-### 简单工厂
+- PHP设计模式全集：https://learnku.com/docs/php-design-patterns/2018/translation-instructions/1486
+- 大话设计模式：https://www.bookstack.cn/read/flyingalex-design-patterns-by-php/readme.md
+- 设计模式：可复用面向对象软件的基础：https://item.jd.com/12623588.html
 
-- 代码：https://github.com/mailjobblog/design/tree/master/simple-factory
+## 目录
 
-### 工厂方法
+### 创建型模式
 
-- 代码：https://github.com/mailjobblog/design/tree/master/abstract-factory
+- 简单工厂：[simple-factory](1.simple-factory)
+- 工厂方法：[abstract-factory](2.abstract-factory)
+- 抽象工厂：[factory](3.factory)
+- 原型模式：[prototype](4.prototype)
+- 建造者模式：[builder](5.builder)
+- 单例模式：[singleton](6.singleton)
 
-### 抽象工厂
+### 结构型模式
 
-- 代码：https://github.com/mailjobblog/design/tree/master/factory
+- 适配器模式：[adapter](7.adapter)
+- 桥接模式：[bridge](8.bridge)
+- 组合模式：[composite](9.composite)
+- 装饰器模式：[decorator](10.decorator)
+- 外观模式：[facade](11.facade)
+- 享元模式：[flyweights](12.flyweights)
+- 代理模式：[proxy](13.proxy)
 
-### 原型模式
+### 行为型模式
 
-- 代码：https://github.com/mailjobblog/design/tree/master/prototype
-
-### 建造者模式
-
-- 代码：https://github.com/mailjobblog/design/tree/master/builder
-
-### 单例模式
-
-- 代码：https://github.com/mailjobblog/design/tree/master/singleton
-
-## 结构型模式
-
-### 适配器模式
-
-- 代码：https://github.com/mailjobblog/design/tree/master/adapter
-
-### 桥接模式
-
-- 代码：https://github.com/mailjobblog/design/tree/master/bridge
-
-### 组合模式
-
-- 代码：https://github.com/mailjobblog/design/tree/master/composite
-
-### 外观模式
-
-### 享元模式
-
-### 代理模式
-
-## 行为型模式
-
-### 责任链模式
-
-### 命令模式
-
-### 迭代器模式
-
-### 终结者模式
-
-### 备忘录模式
-
-### 观察者模式
-
-### 状态模式
-
-### 策略模式
-
-### 模版方法模式
-
-### 访问者模式
+- 责任链模式：[chain-of-responsiblity](14.chain-of-responsiblity)
+- 命令模式：[command](15.command)
+- 迭代器模式：[iterator](16.iterator)
+- 中介者模式：[mediator](17.mediator)
+- 备忘录模式：[memento](18.memento)
+- 观察者模式：[observer](19.observer)
+- 状态模式：[state](20.state)
+- 策略模式：[strategy](21.strategy)
+- 模版方法模式：[template-method](22.template-method)
+- 访问者模式：[visitor](23.visitor)
 
