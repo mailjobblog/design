@@ -48,10 +48,10 @@
 - PHP：https://www.php.net/manual/zh/install.php
 - Composer：https://www.phpcomposer.com
 
-2. 在测试目录，更新 `vendor` 依赖
+2. 在测试目录，安装 `vendor` 依赖
 
 ```bash
-composer update
+composer install
 ```
 
 3. 测试代码
