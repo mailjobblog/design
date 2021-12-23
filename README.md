@@ -1,12 +1,5 @@
 # 设计模式
 
-## 参考文献
-
-- PHP设计模式全集：https://learnku.com/docs/php-design-patterns/2018/translation-instructions/1486
-- 大话设计模式：https://www.bookstack.cn/read/flyingalex-design-patterns-by-php/readme.md
-- 设计模式：可复用面向对象软件的基础：https://item.jd.com/12623588.html
-- UML类图：https://blog.mailjob.net/posts/305120434.html
-
 ## 目录
 
 ### 创建型模式
@@ -59,3 +52,10 @@ composer install
 ```shell
 php index.php
 ```
+
+## 参考文献
+
+- PHP设计模式全集：https://learnku.com/docs/php-design-patterns/2018/translation-instructions/1486
+- 大话设计模式：https://www.bookstack.cn/read/flyingalex-design-patterns-by-php/readme.md
+- 可复用面向对象软件的基础：https://item.jd.com/12623588.html
+- UML类图：https://blog.mailjob.net/posts/305120434.html
