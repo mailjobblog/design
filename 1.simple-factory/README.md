@@ -1,5 +1,24 @@
 # 简单工厂
 
+## 如何测试
+
+安装 `php` 和 `composer` 软件
+
+- PHP：https://www.php.net/manual/zh/install.php
+- Composer：https://www.phpcomposer.com
+
+在当前目录,下载 `vendor` 依赖,PSR4自动加载类
+
+```bash
+composer update
+```
+
+测试代码
+
+```shell
+php index.php
+```
+
 ## 前言
 
 对于工厂模式主要分为：**简单工厂，工厂模式，抽象工厂**。  
@@ -10,11 +29,16 @@
 
 ![image-20210429192738179](http://img.github.mailjob.net/20210429192739.png)
 
+## 场景描述
+
+高端的汽车品牌，会根据顾客的需求，完成定制化的需求。常见的汽车颜色有：黑，白，红，蓝，灰。如果你想按照自己的需求定制，比如你想要：紫色，黄色，绿色。则会按照你的定制化需求，到达不同的流水线工作。
+
+
 ## 解释Demo
 
 先从一个简单的代码开始看起，先实现一个工厂方法
 
-```php
+```
 // 工厂类
 class Factory
 {
@@ -36,7 +60,7 @@ class Factory
 
 然后在接下来的代码中，实现 产品接口 和 产品
 
-```php
+```
 // 接口类
 interface Product
 {
@@ -64,16 +88,10 @@ class ProductB implements Product
 
 最后客户端实现逻辑
 
-```php
+```
 // Client
 $productA = Factory::createProduct('A');
 $productB = Factory::createProduct('B');
 $productA->show();
 $productB->show();
 ```
-
-## 场景化代码实现
-
-### 场景描述
-
-高端的汽车品牌，会根据顾客的需求，完成定制化的需求。常见的汽车颜色有：黑，白，红，蓝，灰。如果你想按照自己的需求定制，比如你想要：紫色，黄色，绿色。则会按照你的定制化需求，到达不同的流水线工作。
