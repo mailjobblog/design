@@ -1,0 +1,19 @@
+{
+    "name": "mailjobblog/design",
+    "description": "Design pattern",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Design\\Src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "libin",
+            "email": "libinjob@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
