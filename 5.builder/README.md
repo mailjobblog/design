@@ -1,33 +1,5 @@
 # 建造者模式 ｜ 生成器模式
 
-## 测试
-
-```bash
-php test.php
-```
-
-## 文件目录
-
-```angular2html
----builder
-------builder.php
-------director.php
-
----product
-------product.php
-------makeProduct.php
-
---- test.php
-```
-
-## 代码解析
-
-- builder.php 文件中 `BuilderInterface{}` 作为建造者接口设定了建造汽车的每个步骤，`TruckBuilder{}` 和 `CarBuilder{}` 实现了它
-- makeProduct.php 文件中，`Engine{}` 、`Tyre{}` 、`Door{}` 、定义了建造汽车部件的具体内容
-- product.php 文件中，`AssemblePart{}` 定义了组装汽车的方法。`Truck{}` 和 `Farm{}` 则继承了 `AssemblePart{}` 获取组装部件的方法
-- `Director{}` 的 `build()` 让车构造了起来
-
-
 ## 前言
 
 **建造者是创建一个复杂对象的一部分接口**
@@ -38,9 +10,6 @@ php test.php
 
 注意：建造者通常有一个「[流式接口](https://zh.wikipedia.org/wiki/流式接口)」，例如 PHPUnit 模拟生成器。
 
-## 参考文献
-
-> 代码下载：https://github.com/mailjobblog/design/tree/master/builder
 
 ## UML
 

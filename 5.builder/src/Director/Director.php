@@ -1,5 +1,8 @@
 <?php
-require_once 'builder.php';
+namespace Design\Src\Director;
+
+use Design\Src\Builder\BuilderInterface;
+use Design\Src\Part\PartAbstract;
 
 /*
 * Director 是构建器模式的一部分。
@@ -9,14 +12,9 @@ require_once 'builder.php';
 */
 class Director
 {
-    public function build(BuilderInterface $builder): AssemblePart
+    public function build(BuilderInterface $builder)
     {
-        $builder->createAssemblePart();
-
-        $builder->addDoor();
+        $builder->addWheel();
         $builder->addEngine();
-        $builder->addTyre();
-
-        return $builder->getAssemblePart();
     }
 }
