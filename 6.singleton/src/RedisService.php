@@ -1,9 +1,6 @@
 <?php
-/**
- * Redis 连接类
- *
- * 单例模式
- */
+namespace Design\Src;
+
 class RedisService {
 
     private static $instance;
@@ -24,14 +21,12 @@ class RedisService {
             // $redis->auth($auth);
             // self::$instance = $redis;
 
-            self::$instance = 'test'; // 测试使用
+            self::$instance = self; // 测试使用
         }
         return self::$instance;
     }
+
+    public function get() {
+        return "get 查询成功";
+    }
 }
-
-// 测试
-var_dump(redisService::getInstance('127.0.0.1','6379'));
-
-// 返回
-// string(4) "test"
