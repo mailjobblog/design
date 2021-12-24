@@ -21,7 +21,7 @@ class RedisService {
             // $redis->auth($auth);
             // self::$instance = $redis;
 
-            self::$instance = self; // 测试使用
+            self::$instance = new RedisService(); // 测试使用
         }
         return self::$instance;
     }
