@@ -1,21 +1,27 @@
 <?php
 namespace Design\Src\Part;
 
-class Part extends PartAbstract {
+class Part {
 
-    public function Show() : array {
-        $result = array();
-        foreach ($this->data as $k => $obj) {
-            switch ($k) {
-                case "engine":
-                case "wheel":
-                    $result[$k] = $obj->make();
-                    break;
-                default:
-                    $result["undefined"] = "undefined";
-            }
-        }
-        return $result;
+    protected array $buildList = [];
+
+    /**
+     * @param $key
+     * @param $value
+     */
+    public function setPart($key, $value){
+        $this->buildList[$key] = $value;
     }
 
+    public function Show() : array {
+        return $this->buildList;
+    }
+
+    public function buildShow() {
+        $str = "";
+        foreach ($this->buildList as $key => $value) {
+            $str .= "key:{$key}_value:{$value}";
+        }
+        return $str;
+    }
 }
